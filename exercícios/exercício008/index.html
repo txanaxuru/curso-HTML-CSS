@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formatação de Textos</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        big{background-color: rgb(0, 241, 32)}
+        small{background-color: rgb(0, 241, 32);}
+    </style>
 </head>
 <body>
     <h1>Principais formatações</h1>
@@ -15,6 +19,20 @@
     <h2>Itálico/ênfase</h2>
     <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I-(sem semântica)</p>
     <p>Nesta frase, temos um <em>termo com ênfase</em> usando a tag EM-(semântica)</p>
-
+    <h2>Texto marcado</h2>
+<p>Para criar uma <mark>marcação de texto</mark> utilizamos a tag MARK(sem semântica)</p>
+<p>Para modificar a cor individualmente usamos o parâmetro css style-background color e selecionamos a cor ou também padronizar colocando o style no cabeçario <marks style="background-color: rgb(236, 4, 225);">ex:rosa </mark>  
+</p>
+<h2>Texto grande e pequeno</h2>
+<p>Nesta frase estamos criando um <big>texto grande</big>(tag BIG-ja obsoleta não a sentido de usa-lá pois não há função semântica e se for necessário modificar a forma de alguma letra o melhor caminho é através do css) e um <small>texto pequeno</small>(tag SMALL-ainda válida por ter sentido semântico, ou seja, ainda tem propósito além de apenas sua forma e pode ser usada por exemplo em contratos nas ditas letras menores...)</p>
+<h2>Texto deletado</h2>
+<p>podemos marcar um <del>texto como excluído</del> para identificar que ele deve ser lido, mas não considerado, usando a tag DEL(semântica)</p>
+<h2>Texto iserido</h2>
+<p>podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois usando a tag INS(semântica)</p>
+<p>ou também <u>podemos inserir</u> com a tag U(que não possuí semântica)</p>
+<h2>Texto sobrescrito</h2>
+<p>Utiliza-se a tag SUP(em cima) para inserir coisa do tipo x<sup>7</sup>+7=?</p>
+<h2>Texto subscrito</h2>
+<p>Utiliza-se a tag SUB(em baixo) para inserir coisas do tipo H<sub>2</sub>O</p>
 </body>
 </html>
